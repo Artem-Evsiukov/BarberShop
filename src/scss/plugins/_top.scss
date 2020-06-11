@@ -1,0 +1,36 @@
+.top
+{
+    margin: 0 0 80px;
+    
+    &__logo
+    {
+        padding-top: 58px;
+
+        text-align: center;
+    }
+
+    &__promo
+    {
+        display: flex;
+
+        margin-bottom: 85px;
+
+        justify-content: space-between;
+
+        &-item
+        {
+            width: calc(33.3% - 30px);
+
+            text-align: center;
+
+            p
+            {
+                line-height: 1.75;
+
+                text-transform: uppercase;
+
+                color: $white;
+            }
+        }
+    }
+}

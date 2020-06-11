@@ -1,0 +1,7 @@
+*.log
+.idea
+.idea/*
+.DS_Store
+# sablime
+node_modules
+build
